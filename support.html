@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support | Pexels Importer</title>
+  <meta name="description" content="Pexels Importer is a productivity plugin for Adobe Premiere Pro that helps editors search, preview, download and import free stock media from Pexels.">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/plugin-icon-48.png">
+  <style>
+:root {
+  color-scheme: dark;
+  --bg: #101217;
+  --card: #181b22;
+  --text: #f4f6fb;
+  --muted: #b7bfcc;
+  --line: #2b303b;
+  --accent: #2d8cff;
+  --accent2: #ffca28;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top left, rgba(45,140,255,.20), transparent 32rem), var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+}
+a { color: #8fc1ff; }
+.container { max-width: 980px; margin: 0 auto; padding: 28px 20px 56px; }
+.nav {
+  display: flex; justify-content: space-between; gap: 16px; align-items: center;
+  padding: 12px 0 28px;
+}
+.brand { display: flex; gap: 12px; align-items: center; font-weight: 800; font-size: 18px; }
+.brand img { width: 36px; height: 36px; border-radius: 8px; }
+.links { display: flex; flex-wrap: wrap; gap: 12px; font-size: 14px; }
+.hero {
+  padding: 44px 28px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+}
+h1 { font-size: clamp(32px, 6vw, 56px); line-height: 1.05; margin: 0 0 16px; }
+h2 { font-size: 24px; margin: 34px 0 12px; }
+h3 { font-size: 18px; margin: 24px 0 8px; }
+p { margin: 0 0 14px; }
+.lead { color: var(--muted); font-size: 18px; max-width: 780px; }
+.badges { display:flex; flex-wrap:wrap; gap:8px; margin-top: 18px; }
+.badge { border:1px solid var(--line); background:rgba(255,255,255,.06); border-radius:999px; padding:6px 10px; font-size:13px; color:var(--muted); }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 20px; }
+.card {
+  border: 1px solid var(--line); border-radius: 18px; padding: 18px;
+  background: rgba(24,27,34,.88);
+}
+.card strong { display:block; margin-bottom: 8px; }
+ol, ul { padding-left: 22px; }
+li { margin: 8px 0; }
+.notice {
+  border-left: 4px solid var(--accent2);
+  background: rgba(255, 202, 40, .10);
+  padding: 14px 16px;
+  border-radius: 12px;
+  color: #f6e6a6;
+}
+.footer {
+  border-top: 1px solid var(--line);
+  margin-top: 44px;
+  padding-top: 20px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.code {
+  background: #090b10; border: 1px solid var(--line); border-radius: 12px;
+  padding: 12px 14px; overflow-x: auto; color: #d8e6ff;
+}
+@media (max-width: 760px) {
+  .nav { flex-direction: column; align-items: flex-start; }
+  .grid { grid-template-columns: 1fr; }
+  .hero { padding: 28px 18px; }
+}
+</style>
+</head>
+<body>
+  <main class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html"><img src="assets/plugin-icon-96.png" alt="Pexels Importer icon"><span>Pexels Importer</span></a>
+      <div class="links">
+        <a href="index.html">Overview</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+    </nav>
+    
+<h1>Support</h1>
+<p>Use this page to help users install, configure and troubleshoot Pexels Importer.</p>
+
+<h2>Installation</h2>
+<ol>
+  <li>Install the plugin from Adobe Creative Cloud Marketplace.</li>
+  <li>Open Adobe Premiere Pro.</li>
+  <li>Open <strong>Window &gt; UXP Plugins &gt; Pexels Importer</strong>.</li>
+</ol>
+
+<h2>Getting a Pexels API key</h2>
+<ol>
+  <li>Create or sign in to your Pexels account.</li>
+  <li>Go to the Pexels API page and request an API key.</li>
+  <li>Copy the API key.</li>
+  <li>Paste it inside the plugin and click save.</li>
+</ol>
+
+<h2>Common issues</h2>
+<h3>No results appear</h3>
+<ul>
+  <li>Check that your Pexels API key is valid.</li>
+  <li>Try a simple English search term such as “beach” or “office”.</li>
+  <li>Check your internet connection.</li>
+</ul>
+
+<h3>Import does not work</h3>
+<ul>
+  <li>Make sure a Premiere Pro project is open.</li>
+  <li>Choose a valid local download folder when prompted.</li>
+  <li>Try importing a photo first, then test videos.</li>
+</ul>
+
+<h3>API limit reached</h3>
+<ul>
+  <li>Pexels may limit API requests. Wait and try again later, or check your Pexels API account.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>Support email: <strong>REPLACE_WITH_YOUR_SUPPORT_EMAIL@example.com</strong></p>
+<p class="notice">Before publishing this page, replace the placeholder email with your real support email.</p>
+
+    <footer class="footer">
+      <p>Pexels Importer is not affiliated with, endorsed by, or sponsored by Adobe or Pexels. Adobe Premiere Pro is a trademark of Adobe. Pexels is a third-party media service.</p>
+      <p>Support email: <strong>REPLACE_WITH_YOUR_SUPPORT_EMAIL@example.com</strong></p>
+    </footer>
+  </main>
+</body>
+</html>
