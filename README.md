@@ -13,10 +13,10 @@ This folder contains a simple GitHub Pages-ready website for Adobe Marketplace s
 
 ## Suggested Adobe fields after publishing
 Privacy Policy URL:
-`https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/privacy.html`
+`https://dacho777.github.io/pexels-importer-site/privacy.html`
 
 Terms of Service URL:
-`https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/terms.html`
+`https://dacho777.github.io/pexels-importer-site/terms.html`
 
 Help URL:
-`https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/support.html`
+`https://dacho777.github.io/pexels-importer-site/support.html`
