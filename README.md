@@ -11,9 +11,6 @@ This folder contains a simple GitHub Pages-ready website for Adobe Marketplace s
 - `assets/plugin-icon-96.png`: Adobe plugin icon 96x96
 - `assets/plugin-icon-192.png`: Adobe plugin icon 192x192
 
-## Before publishing
-Replace `REPLACE_WITH_YOUR_SUPPORT_EMAIL@example.com` with your real support email in all HTML files.
-
 ## Suggested Adobe fields after publishing
 Privacy Policy URL:
 `https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/privacy.html`
